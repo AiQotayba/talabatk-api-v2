@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "dist/app.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/api-docs/(.*\\.(js|css|png))",
+            "dest": "/dist/public/api-docs/$1"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "dist/app.js"
+        }
+    ]
+}
