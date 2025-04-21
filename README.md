@@ -50,7 +50,7 @@ API documentation is available at `/api-docs` when the server is running.
 
 ## Project Structure
 
-\`\`\`
+```
 📦 talabatk-backend/
 ├── 📁 src/
 │   ├── 📁 routes/             # Route definitions
@@ -69,8 +69,8 @@ API documentation is available at `/api-docs` when the server is running.
 ├── 📄 tsconfig.json
 ├── 📄 package.json
 └── 📄 README.md
-\`\`\`
 
+```
 ## Available Endpoints
 
 See the API documentation at `/api-docs` for a complete list of endpoints.
@@ -79,10 +79,4 @@ See the API documentation at `/api-docs` for a complete list of endpoints.
 
 This project is licensed under the MIT License.
 
-## note
-{
-  "name": "string",
-  "email": "ktsyr2@gmail.com",
-  "phone": 1234567894,
-  "password": "password"
-}
+## note 
